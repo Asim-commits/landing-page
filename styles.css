@@ -138,9 +138,34 @@ p.hero-paragraph {
 
 .signup-section {
     border: 2px solid teal;
-    height: 50%;
+    height: 35%;
+    display: flex;
+    /* align-content: center; */
+    align-items: center;
+    justify-content: center;
 }
 
 .signup-nested-section {
-    border: 2px solid black;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+}
+
+.text-container {
+    margin: 32px;
+    color: #e5e7eb;
+}
+
+.text-container-1 {
+    font-size: 18px;
+}
+
+.text-container-2 {
+    font-size: 14px;
+}
+
+.button-container {
+    margin: 16px;
 }
