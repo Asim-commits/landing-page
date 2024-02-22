@@ -137,7 +137,6 @@ p.hero-paragraph {
 }
 
 .signup-section {
-    border: 2px solid teal;
     height: 35%;
     display: flex;
     /* align-content: center; */
@@ -168,4 +167,16 @@ p.hero-paragraph {
 
 .button-container {
     margin: 16px;
+}
+
+.footer {
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937
+}
+
+span {
+    color: #f9faf8;
 }
