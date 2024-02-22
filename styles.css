@@ -1,10 +1,12 @@
-body {
+html, body {
     margin: 0px;
     padding: 0px;
+    height: 100%;
 }
 
 .flex-container {
-    display: flex;
+    /* display: flex; */
+    height: 100%;
 }
 
 .header {
@@ -40,6 +42,12 @@ h1.hero-text {
     margin: 0px;
 }
 
+h1.info {
+    color: #1f2937;
+    font-weight: 800px;
+    font-size: 36px;
+}
+
 ul {
     display: flex;
     list-style-type: none;
@@ -72,4 +80,34 @@ p.hero-paragraph {
     padding: 24px;
     width: 400px;
     height: 130px;
+}
+
+.information-container {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.small-containers {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.small-container {
+    text-align: center;
+    width: 140px;
+}
+
+.small-image-container {
+    width: 120px;
+    height: 100px;
+    border: 2px solid blue;
+    margin: 0px auto;
 }
