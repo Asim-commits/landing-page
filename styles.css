@@ -30,6 +30,27 @@ html, body {
     margin: 60px;
 }
 
+.header-button {
+    margin-top: 16px;
+    border-radius: 5px;
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    border: 0;
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+button {
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
 h1 {
     font-size: 24px;
     color: #f9faf8;
@@ -108,7 +129,8 @@ p.hero-paragraph {
 .small-image-container {
     width: 120px;
     height: 100px;
-    border: 2px solid blue;
+    border-radius: 10px;
+    border: 2px solid #3882f6;
     margin: 0px auto;
 }
 
@@ -146,6 +168,7 @@ p.hero-paragraph {
 
 .signup-nested-section {
     background-color: #3882f6;
+    border-radius: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
